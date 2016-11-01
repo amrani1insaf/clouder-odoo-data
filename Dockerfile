@@ -1,5 +1,5 @@
 FROM clouder/clouder-base
-MAINTAINER Yannick Buron yburon@goclouder.net
+MAINTAINER AMRANI BOUKHOBZA Insaf amrani.insaf.b@gmail.com
 
 # create the odoo user
 RUN adduser --home=/home/odoo --disabled-password --gecos "" --shell=/bin/bash odoo
